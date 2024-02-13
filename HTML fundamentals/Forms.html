@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="Username">Username :</label>
+            <input type="text" placeholder="Enter your name" id="Username" name="Username">
+        </div>
+        <div>
+            <label for="Password">Password :</label>
+            <input type="password" placeholder="Enter your password" id="Password">
+        </div>
+        <div>
+            <label for="Age">Age :</label>
+            <input type="number" placeholder="Enter your Age" id="Age">
+        </div>
+        <button type="submit">Submit</button>
+        <hr>
+        
+        <form action="https://www.google.co.uk/search">
+            <input type="text" placeholder="Search in Google" name="q">
+            <button>Search</button>
+        </form>
+        <hr>
+        <input type="checkbox" id="age" name="age" >
+        <label for="age">I am 18+</label>
+        <div>
+            <input type="radio" name="Fruits" id="Mango" value="Mango">
+            <label for="Mango">Mango</label>
+            <input type="radio" name="Fruits" id="apple" value="apple">
+            <label for="apple">Mango</label>
+            <input type="radio" name="Fruits" id="banana" value="banana">
+            <label for="banana">Mango</label>
+        </div>
+        <div>
+            Choose your profession
+            <select name="Profesion" id="Profession">
+            <option value="student">Student</option>
+            <option value="Teacher" selected>Teacher</option>
+            </select>
+        </div>
+        <div>
+            <label for="Volume">Volume</label>
+            <input type="range" id="Volume" min="0" max="100" step="10" value="60" name="Volume">
+            <button type="submit">Submit</button>
+            <br>
+            <label for="FeedBack">Please give your valuable feedback</label>
+            <textarea id="FeedBack"></textarea>
+        </div>
+
+    </form>
+</body>
+
+</html>
